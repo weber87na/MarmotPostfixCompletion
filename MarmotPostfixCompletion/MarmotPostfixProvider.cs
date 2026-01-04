@@ -22,13 +22,13 @@ using Microsoft.VisualStudio.Imaging;
 using Microsoft.VisualStudio.Core.Imaging;
 using Microsoft.VisualStudio.Text.Adornments;
 
-namespace PostfixCompletion
+namespace MarmotPostfixCompletion
 {
     [Export(typeof(IAsyncCompletionSourceProvider))]
     [Export(typeof(IAsyncCompletionCommitManagerProvider))]
     [Name("Marmot Postfix Completion")]
     [ContentType("CSharp")]
-    public class PostfixProvider : IAsyncCompletionSourceProvider, IAsyncCompletionCommitManagerProvider
+    public class MarmotPostfixProvider : IAsyncCompletionSourceProvider, IAsyncCompletionCommitManagerProvider
     {
         IAsyncCompletionSource IAsyncCompletionSourceProvider.GetOrCreate(ITextView textView) => new PostfixCompletionSource();
         IAsyncCompletionCommitManager IAsyncCompletionCommitManagerProvider.GetOrCreate(ITextView textView) => new PostfixCommitManager();

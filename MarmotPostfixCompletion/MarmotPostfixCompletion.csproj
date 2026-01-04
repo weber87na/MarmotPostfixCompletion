@@ -13,8 +13,8 @@
     <ProjectGuid>{9829BC67-6D34-4112-BB36-DD65529FC05C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>PostfixCompletion</RootNamespace>
-    <AssemblyName>PostfixCompletion</AssemblyName>
+    <RootNamespace>MarmotPostfixCompletion</RootNamespace>
+    <AssemblyName>MarmotPostfixCompletion</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <GeneratePkgDefFile>true</GeneratePkgDefFile>
     <UseCodebase>true</UseCodebase>
@@ -45,9 +45,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="PostfixProvider.cs" />
+    <Compile Include="MarmotPostfixProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="PostfixCompletionPackage.cs" />
+    <Compile Include="MarmotPostfixCompletionPackage.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />
