@@ -6,7 +6,7 @@
         <Description xml:space="preserve">Marmot Postfix Completion (The poor man's Rider/ReSharper alternative)
 Supported Version: Microsoft Visual Studio Community 2022 (64-bit) - Version 17.13.1
 </Description>
-        <MoreInfo>https://github.com/weber87na/MarmotPostfixCompletion/tree/master/PostfixCompletion</MoreInfo>
+        <MoreInfo>https://github.com/weber87na/MarmotPostfixCompletion/tree/master/MarmotPostfixCompletion</MoreInfo>
         <Icon>MarmotPostfix128.png</Icon>
         <PreviewImage>MarmotPostfix200.png</PreviewImage>
         <Tags>C#, Postfix, IntelliSense, Productivity, Snippet, Free, Editor, Template</Tags>
