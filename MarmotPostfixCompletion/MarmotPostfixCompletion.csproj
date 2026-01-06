@@ -72,6 +72,7 @@
     <PackageReference Include="Microsoft.VSSDK.BuildTools" Version="17.13.2126" NoWarn="NU1604" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="demo.gif" />
     <Content Include="MarmotPostfix128.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
