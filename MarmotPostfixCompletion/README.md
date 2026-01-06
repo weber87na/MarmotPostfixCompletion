@@ -1,4 +1,5 @@
-﻿## Marmot Postfix Completion
+﻿![demo](demo.gif)
+## Marmot Postfix Completion
 **(The poor man's Rider/ReSharper alternative)**
 
 Visual Studio has always lacked a free postfix extension. After watching a [pointless marmot video](https://www.youtube.com/shorts/sTezq-GOTY4) that was just too ridiculous, I decided to "vibe code" this project and see what happens.
